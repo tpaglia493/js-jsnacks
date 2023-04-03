@@ -7,7 +7,7 @@ let nomeInvitato = prompt("Il suo nome, prego");
 
 let sullaLista = false;
 
-//ALGORITMO DI RICERCA NELLA STRINGA
+//ALGORITMO DI RICERCA NELL'ARRAY
 for (let i = 0; i < listaInvitati.length; i++) {
 
     //INTERRUZIONE DEL CICLO FOR SE IL NOME COINCIDE CON LA LISTA
