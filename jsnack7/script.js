@@ -19,12 +19,12 @@ for(let i = 1; i<=500; i++){
         console.log("L'ultimo numero sarà: " + fineTabellina);
         fineTabellina = parseInt(fineTabellina);
 
-    //TABELLINA DEL 2 X COMPRESO A Y COMPRESO (BUG PER NUMERI DISPARI)
+    //TABELLINA DEL 2 DA X COMPRESO A Y COMPRESO (BUG PER NUMERI DISPARI)
         for (let i = inizioTabellina; i <= fineTabellina; i=i+2) {
             console.log(i);
         };
 
-    //TABELLINA DEL DA X*2 A Y*2
+    //TABELLINA DEL 2 DA X*2 A Y*2
         for (let i = inizioTabellina; i <= fineTabellina; i++) {
             console.log(i*2);
         }
